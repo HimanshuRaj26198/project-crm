@@ -392,31 +392,3 @@ Authorization: Bearer <token>
 ```
 
 4. Access protected routes
-
----
-
-## 1️⃣3️⃣ Future Improvements (Recommended)
-
-- Role-based access (Admin/User)
-- Refresh token system
-- Logging (Winston)
-- API versioning (`/api/v1`)
-- Swagger Documentation
-- Redis-based rate limiting
-- Email verification
-- Password reset
-
----
-
-## 🎯 Final Summary
-
-This backend follows a clean, modular, and production-ready architecture with:
-
-- Clear separation of concerns
-- Secure authentication flow
-- Middleware-based protection
-- Scalable structure
-- Docker-ready deployment
-
-It is suitable for scaling into a full SaaS CRM platform.
-
