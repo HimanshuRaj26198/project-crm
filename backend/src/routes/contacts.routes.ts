@@ -1,7 +1,7 @@
 import { Router } from "express";
-import { createContact, deleteContact, getContacts, getSingleContact, updateContact } from "../controllers/conracts.controller.ts";
-import { validate } from "../middleware/validate.ts";
-import { createContactSchema } from "../validators/contact.validator.ts";
+import { createContact, deleteContact, getContacts, getSingleContact, updateContact } from "../controllers/conracts.controller";
+import { validate } from "../middleware/validate";
+import { createContactSchema } from "../validators/contact.validator";
 
 const router = Router();
 

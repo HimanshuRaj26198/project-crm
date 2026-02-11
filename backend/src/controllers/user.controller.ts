@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { UserModel } from "../models/user.model.ts";
+import { UserModel } from "../models/user.model";
 import { compare } from "bcryptjs";
 import jwt from "jsonwebtoken";
 import { success } from "zod";

@@ -1,9 +1,9 @@
 import { Router } from "express";
-import { signupUser, signInUser, getMyProfile } from "../controllers/user.controller.ts";
-import { routeRateLimitter } from "../middleware/routeLimitter.ts";
-import { validate } from "../middleware/validate.ts";
-import {registerUserSchema, signinUserSchema} from "../validators/user.validator.ts";
-import { authenticate } from "../middleware/authenticate.ts";
+import { signupUser, signInUser, getMyProfile } from "../controllers/user.controller";
+import { routeRateLimitter } from "../middleware/routeLimitter";
+import { validate } from "../middleware/validate";
+import {registerUserSchema, signinUserSchema} from "../validators/user.validator";
+import { authenticate } from "../middleware/authenticate";
 
 
 const router = Router();
